@@ -12,16 +12,14 @@ function maskify(cc) {
         }
 
     } else {
-        for (let i = 0; i < cc.length; i++) {
-            output += '#';
-        }
+        output = cc;
 
     }
 
     console.log(output);
     return output;
 
-    
+
 }
 
 maskify('GavinPopkenIsAnAwesomeMan');
